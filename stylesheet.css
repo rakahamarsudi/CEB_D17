@@ -355,241 +355,174 @@ h7 {
 }
 
 /*====== Milik Bagian 4 ======*/
-.page-home_gameModes-container html, body,
-ul, ol, li,
-h1, h2, h3, h4, h5, h6, p, div {
-  margin: 0;
-  padding: 0;
+.arenapart {
+	width:100%;
+	text-align:center;
 }
-
-.page-home_gameModes-container body {
-  font-family: "Penumbra Flare";
-}
-
-.page-home_gameModes-container li {
-  list-style: none;
-}
-
-.page-home_gameModes-container a {
-  text-decoration: none;
-}
-
-
-.page-home_gameModes-container{
-  background-color:#000;
-  width:100%;
-  border-bottom: 4px solid #85784a;
-  border-top: 4px solid #85784a;
+.containerAtas {
+	background-image: url(https://web2.hirez.com/smite/v3/img/gamemodes-bg-arena.jpg);
+	background-position-x:center;
+	height:40%;
 }
 
 .featured-mode{
-  color:#85784a;
-  text-align:center;
-  font-family:"Penumbra Half Serif";
-  text-decoration: none;
+	color:#85784a;
+	text-align:center;
+	font-family:"Cenzil";
+	text-decoration: none;
+	margin: 0px auto;
 }
 
 .featured-mode h2{
-  padding-top: 180px;
-  padding-bottom:10px;
-  color:#85784a ;
-  font-weight: 400;
-  letter-spacing: 8px;
-  position: relative;
-  left:80px;
-  text-align: center;
-  text-indent: 8px;
-  font-family: "Penumbra Half Serif";
-  font-size: 1.6rem;
-  margin: 0;
-  display: block;
-  box-sizing: border-box;
+	padding-top: 50px;
+	padding-bottom:10px;
+	color:#85784a ;
+	font-weight: bold;
+	letter-spacing: 8px;
+	text-align: center;
+	text-indent: 8px;
+	font-family: "Cinzel";
+	font-size: 50px;
+	margin: 0;
+	display: block;
+	box-sizing: border-box;
 }
 .about {
-  color:white;
-  width:50%;
-  font-size:12px;
-  position:relative;
-  left:380px;
+	color:white;
+	width:100%;
+	font-size:100%;
+	text-align:center;
 }
-
+.details {
+	text-align:center;
+	margin: 0 auto;
+	width:100%;
+}
+.listabout {
+	margin: 0 auto;
+}
 .details span{
-  color:#85784a;
+	color:#85784a;
 }
 
 .details p {
-  color:white;
+	color:white;
 }
 
 .details li{
-  float:left;
-  margin:30px 25px;
-  font-size:15px;
-  position:relative;
-  left:380px;
+	float:left;
+	margin:30px;
+	font-size:100%;
+	font-weight:bold;
+	list-style:none;
+	display: block;
 }
 
-.containerAtas {
-  background-image: url(https://web2.hirez.com/smite/v3/img/gamemodes-bg-arena.jpg);
-  background-size:cover;
-  width:100%;
-  height:600px;
-  transform:scale(1.5);
-  position:relative;
-  left:-120px;
-  top:150px;
+.containerBawah {
+	justify-content:center;
+	width:100%;
+	padding-bottom:5rem;
+	background-color:#000;
+	height:800px;
 }
-.headerArenaTengah {
-  padding-top: 30px;
-  color: #fff;
-  font-weight: 400;
-  letter-spacing: 8px;
-  position: relative;
-  text-align: center;
-  text-indent: 8px;
-  font-family: "Penumbra Half Serif";
-  font-size: 1.1rem;
-  margin: 0;
-  display: block;
-  box-sizing: border-box;
-  position:relative;
-  left:90px;
+.gameModes {
+	width:100%;
+}
+.modesatas a {
+	float:left;
+	width:50%;
 }
 
-.headerArena {
-  border-bottom:3px solid #85784a ;
-  margin-left:0;
-  margin-right:2px;
-  float:left;
-}
-
-.cotainerBawah {
-  justify-content:center;
-  width:90%;
-  margin:20px 5%;
-  padding-bottom:5rem;
-  display:flex;
-  flex-wrap:wrap;
-}
-
-.gameModes a{
-  text-decoration:none;
-}
-
-.long {
-  width:530px;
-  overflow: hidden;
+.modesbawah a {
+	float:left;
+	width:50%;
 }
 
 .arena-box{
-  border: 1px solid #85784a;
-  display: block;
-  float: left;
-  box-shadow: 0 0 10px #000;
-  margin:20px 20px;
-  position:relative;
-  left:15px;
+	border: 1px solid #85784a;
+	display: block;
+	box-shadow: 0 0 10px #000;
+	margin:20px ;
+	overflow: hidden;
 }
 
 .arena-image {
-  display: block;
-  width: 100%;
-  height: 250px;
-  background-size: cover;
-  background-position: 50%;
+	display: block;
+	width: 100%;
+	height: 250px;
+	background-size: cover;
+	background-position: 50%;
 }
 
 .arena-image:hover{
-  transform:scale(1.5);
+	transform:scale(1.5);
 }
-
 
 .satu {
-  background-image: url(https://web2.hirez.com/smite/v3/img/gamemode-tile-arena.jpg);
-  transition:.5s;
+	background-image: url(https://web2.hirez.com/smite/v3/img/gamemode-tile-arena.jpg);
+	transition:.5s;
 }
 .dua {
-  background-image: url(https://web2.hirez.com/smite/v3/img/gamemode-tile-conquest.jpg);
-  transition:.5s;
+	background-image: url(https://web2.hirez.com/smite/v3/img/gamemode-tile-conquest.jpg);
+	transition:.5s;
 }
 .tiga {
-  background-image: url(https://web2.hirez.com/smite/v3/img/gamemode-tile-joust.jpg);
-  transition:.5s;
+	background-image: url(https://web2.hirez.com/smite/v3/img/gamemode-tile-joust.jpg);
+	transition:.5s;
 }
 .empat {
-  background-image: url(https://web2.hirez.com/smite/v3/img/gamemode-tile-siege.jpg);
-  transition:.5s;
+	background-image: url(https://web2.hirez.com/smite/v3/img/gamemode-tile-siege.jpg);
+	transition:.5s;
 }
 
 .arena-name{
-  position: relative;
-  top: 0;
-  left: 0;
-  text-align: center;
-  letter-spacing:8px;
-  color: #85784a;
-  display: block;
-  background-color: #050d1a;
-  border: 1px solid #85784a;
-}
-
-.page-home_gameModes-container h3 {
-    position: relative;
-    top: -10px;
-    width: 100%;
-    display: block;
-    padding-top: 1rem;
-    border-top: inherit;
-    font-family: "Penumbra Half Serif";
-    font-size: 1rem;
-    font-weight: 100;
-    letter-spacing: 3px;
-}
-
-.containerBawah{
-  background-color:#000;
-  height:800px;
+	position: relative;
+	top: 0;
+	left: 0;
+	text-align: center;
+	letter-spacing:8px;
+	color: #85784a;
+	display: block;
+	background-color: #050d1a;
+	border: 1px solid #85784a;
 }
 
 .message-wrapperArena{
-  background-color:#000;
-  height:150px;
-  width:100%
+	background-color:#000;
+	height:150px;
+	width:100%
 }
 
 .btn-gameModes {
-  border: 3.5px solid #85784a;
-  text-align: center;
-  padding: 35px 20px;
-  background-color: #131b28;
-  cursor: pointer;
-  box-shadow: 0 7px #000;
-  color:#85784a ;
-  font-weight: 500;
-  letter-spacing: 4px;
-  text-indent: 8px;
-  font-family: "Penumbra Half Serif";
-  font-size: 20px;
-  position:relative;
-  left:435px;
+	border: 3.5px solid #85784a;
+	text-align: center;
+	padding: 35px 20px;
+	background-color: #131b28;
+	cursor: pointer;
+	box-shadow: 0 7px #000;
+	color:#85784a ;
+	font-weight: 500;
+	letter-spacing: 4px;
+	text-indent: 8px;
+	font-family: "Penumbra Half Serif";
+	font-size: 20px;
 }
 
 .btn-gameModes:hover {
-  background-color: rgba(218,165,32,0.2);
-  transition:all 0.5s ease;
+	background-color: rgba(218,165,32,0.2);
+	transition:all 0.5s ease;
 }
 
 .btn-gameModes:active{
-  box-shadow:none;
-  position:relative;
-  top:7px;
+	box-shadow:none;
+	position:relative;
+	top:7px;
 }
 .details {
-  display:flex;
+	display:flex;
 }
 .details p {
-  flex:auto;
-}
+	flex:auto;
 
 /* === Milik Bagian 5 === */
 .container-5 {
