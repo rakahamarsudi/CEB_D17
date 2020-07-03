@@ -523,6 +523,7 @@ h7 {
 }
 .details p {
 	flex:auto;
+}
 
 /* === Milik Bagian 5 === */
 .container-5 {
@@ -555,9 +556,7 @@ h7 {
 
 .img-bag5 {
 	margin: 0;
-	border:medium solid #C6CB14
-}
-
+	border:medium solid #C6CB14;
 }
 
 .pict-logo {
