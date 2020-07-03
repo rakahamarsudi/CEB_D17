@@ -328,6 +328,9 @@
 		margin-bottom: 20px;
 		margin: 0 auto;
 	}	
+	.com-sol img {
+    		width: 90%;
+        }
 
 /* CSS Console Link */
 
@@ -346,5 +349,9 @@
 		text-align: center;
 		margin: 0 auto;
 	}
+       .console-link img{
+    		height: 120px;
+    		width: auto;
+       }
 
 }
